@@ -19,6 +19,7 @@ class SearchAutoCompleteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    //search query method
     public function autocompleteSearch(Request $request)
     {
         $query = $request->get('query');
