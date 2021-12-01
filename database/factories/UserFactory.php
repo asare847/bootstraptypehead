@@ -4,7 +4,7 @@ namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
-
+use Faker\Factory as Faker;
 class UserFactory extends Factory
 {
     /**
